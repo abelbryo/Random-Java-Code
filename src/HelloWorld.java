@@ -73,7 +73,7 @@ public class HelloWorld extends JPanel implements MouseListener{
        super.paintComponent(g);
        font = new Font("Courier", Font.BOLD, getFontSize() );
        g.setFont(font);
-       g.drawString("Java! Boom! Boom!", (int) (Math.random() * 100), getHeight() / 2);
+       g.drawString("Testing...", (int) (Math.random() * 100), getHeight() / 2);
     }
 
 }
