@@ -10,6 +10,8 @@ public class TestStringTokenizer {
         System.out.println("Type 'EXIT' to quit.");
 
         try{
+            // first initialize a Bufferedreader and then
+            // deal with the remaining peace of code
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in)) ;
 
             String line;
@@ -22,16 +24,9 @@ public class TestStringTokenizer {
 
                 if(line.equals("EXIT"))
                     break;
-
             }
-
         } catch (Throwable e){
-
             System.err.println(e);
         }
-    }
-
-
-
-
+    } 
 }
