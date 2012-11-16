@@ -253,5 +253,4 @@ public final class Picture implements ActionListener {
         System.out.printf("%d-by-%d\n", pic.width(), pic.height());
         pic.show();
     }
-
 }
