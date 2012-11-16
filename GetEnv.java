@@ -8,8 +8,10 @@ public class GetEnv {
      */
 
     public static void main(String[] args){
+        // get a map of environment variables
         Map<String,String> env = System.getenv(); 
 
+        // build a sorted set out of the keys and iterate
         for(String k: new TreeSet<String>(env.keySet())){
             System.out.printf("%s = %s \n", k, env.get(k));
         }
