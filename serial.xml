@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_37" class="java.beans.XMLDecoder"> 
+ <object class="java.util.ArrayList"> 
+  <void method="add"> 
+   <object class="java.util.Date"> 
+    <long>1359406863992</long> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="MyData"> 
+    <void property="userName"> 
+     <string>Ian Darwin</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="MyData"> 
+    <void property="userName"> 
+     <string>Aby Brant Charles</string> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+</java> 
